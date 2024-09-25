@@ -1,0 +1,2008 @@
+{
+  "source_base_path": "C:/Users/OnePoint-bijay/Desktop/Projects/OfficeProject/Api Management Docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/cluster.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/cluster.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/configuration.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/configuration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/route.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/route.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/anotomy.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/anotomy.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo-2.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo-2.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo1.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo1.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/modernization.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/modernization.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/skull.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/skull.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Microsoft.AspNetCore.Builder.AppBuilderDelegationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Microsoft.AspNetCore.Builder.AppBuilderDelegationExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Microsoft.AspNetCore.Builder.AppBuilderHealthExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Microsoft.AspNetCore.Builder.AppBuilderHealthExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Microsoft.AspNetCore.Builder.AppBuilderLoadBalancingExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Microsoft.AspNetCore.Builder.AppBuilderLoadBalancingExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Microsoft.AspNetCore.Builder.AppBuilderSessionAffinityExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Microsoft.AspNetCore.Builder.AppBuilderSessionAffinityExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Microsoft.AspNetCore.Builder.DirectForwardingIEndpointRouteBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Microsoft.AspNetCore.Builder.DirectForwardingIEndpointRouteBuilderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Microsoft.AspNetCore.Builder.IReverseProxyApplicationBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Microsoft.AspNetCore.Builder.IReverseProxyApplicationBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Microsoft.AspNetCore.Builder.ReverseProxyConventionBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Microsoft.AspNetCore.Builder.ReverseProxyConventionBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Microsoft.AspNetCore.Builder.ReverseProxyIEndpointRouteBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Microsoft.AspNetCore.Builder.ReverseProxyIEndpointRouteBuilderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Microsoft.AspNetCore.Builder.WebSocketsTelemetryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Microsoft.AspNetCore.Builder.WebSocketsTelemetryExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Microsoft.AspNetCore.Builder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Microsoft.AspNetCore.Builder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Microsoft.AspNetCore.Http.HttpContextFeaturesExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Microsoft.AspNetCore.Http.HttpContextFeaturesExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Microsoft.AspNetCore.Http.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Microsoft.AspNetCore.Http.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Microsoft.Extensions.DependencyInjection.IReverseProxyBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Microsoft.Extensions.DependencyInjection.IReverseProxyBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Microsoft.Extensions.DependencyInjection.InMemoryConfigProviderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Microsoft.Extensions.DependencyInjection.InMemoryConfigProviderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Microsoft.Extensions.DependencyInjection.ReverseProxyServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Microsoft.Extensions.DependencyInjection.ReverseProxyServiceCollectionExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Microsoft.Extensions.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Microsoft.Extensions.DependencyInjection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/OnePoint.PDK.Authentication.CustomAuthenticationHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/OnePoint.PDK.Authentication.CustomAuthenticationHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/OnePoint.PDK.Authentication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/OnePoint.PDK.Authentication.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/OnePoint.PDK.Enum.Direction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/OnePoint.PDK.Enum.Direction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/OnePoint.PDK.Enum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/OnePoint.PDK.Enum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/OnePoint.PDK.Logging.CustomLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/OnePoint.PDK.Logging.CustomLogger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/OnePoint.PDK.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/OnePoint.PDK.Logging.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/OnePoint.PDK.Schema.CustomSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/OnePoint.PDK.Schema.CustomSchema.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/OnePoint.PDK.Schema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/OnePoint.PDK.Schema.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/OnePoint.PDK.Transformations.CustomRequestTransformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/OnePoint.PDK.Transformations.CustomRequestTransformation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/OnePoint.PDK.Transformations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/OnePoint.PDK.Transformations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Configuration.ActiveHealthCheckConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Configuration.ActiveHealthCheckConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Configuration.ClusterConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Configuration.ClusterConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Configuration.DestinationConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Configuration.DestinationConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Configuration.HeaderMatchMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Configuration.HeaderMatchMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Configuration.HealthCheckConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Configuration.HealthCheckConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Configuration.HttpClientConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Configuration.HttpClientConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Configuration.IConfigChangeListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Configuration.IConfigChangeListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Configuration.IConfigValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Configuration.IConfigValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Configuration.IProxyConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Configuration.IProxyConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Configuration.IProxyConfigFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Configuration.IProxyConfigFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Configuration.IProxyConfigProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Configuration.IProxyConfigProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Configuration.InMemoryConfigProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Configuration.InMemoryConfigProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Configuration.PassiveHealthCheckConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Configuration.PassiveHealthCheckConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Configuration.QueryParameterMatchMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Configuration.QueryParameterMatchMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Configuration.RouteConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Configuration.RouteConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Configuration.RouteHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Configuration.RouteHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Configuration.RouteMatch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Configuration.RouteMatch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Configuration.RouteQueryParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Configuration.RouteQueryParameter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Configuration.SessionAffinityConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Configuration.SessionAffinityConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Configuration.SessionAffinityCookieConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Configuration.SessionAffinityCookieConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Configuration.WebProxyConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Configuration.WebProxyConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Configuration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Delegation.IHttpSysDelegator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Delegation.IHttpSysDelegator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Delegation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Delegation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Forwarder.ForwarderError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Forwarder.ForwarderError.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Forwarder.ForwarderHttpClientContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Forwarder.ForwarderHttpClientContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Forwarder.ForwarderHttpClientFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Forwarder.ForwarderHttpClientFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Forwarder.ForwarderRequestConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Forwarder.ForwarderRequestConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Forwarder.HttpTransformer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Forwarder.HttpTransformer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Forwarder.IForwarderErrorFeature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Forwarder.IForwarderErrorFeature.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Forwarder.IForwarderHttpClientFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Forwarder.IForwarderHttpClientFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Forwarder.IHttpForwarder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Forwarder.IHttpForwarder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Forwarder.IHttpForwarderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Forwarder.IHttpForwarderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Forwarder.RequestUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Forwarder.RequestUtilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Forwarder.ReverseProxyPropagator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Forwarder.ReverseProxyPropagator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Forwarder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Forwarder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Health.ActiveHealthCheckMonitorOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Health.ActiveHealthCheckMonitorOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Health.ConsecutiveFailuresHealthPolicyOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Health.ConsecutiveFailuresHealthPolicyOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Health.DestinationProbingResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Health.DestinationProbingResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Health.HealthCheckConstants.ActivePolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Health.HealthCheckConstants.ActivePolicy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Health.HealthCheckConstants.AvailableDestinations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Health.HealthCheckConstants.AvailableDestinations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Health.HealthCheckConstants.PassivePolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Health.HealthCheckConstants.PassivePolicy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Health.HealthCheckConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Health.HealthCheckConstants.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Health.IActiveHealthCheckMonitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Health.IActiveHealthCheckMonitor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Health.IActiveHealthCheckPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Health.IActiveHealthCheckPolicy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Health.IAvailableDestinationsPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Health.IAvailableDestinationsPolicy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Health.IClusterDestinationsUpdater.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Health.IClusterDestinationsUpdater.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Health.IDestinationHealthUpdater.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Health.IDestinationHealthUpdater.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Health.IPassiveHealthCheckPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Health.IPassiveHealthCheckPolicy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Health.IProbingRequestFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Health.IProbingRequestFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Health.NewActiveDestinationHealth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Health.NewActiveDestinationHealth.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Health.PassiveHealthCheckMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Health.PassiveHealthCheckMiddleware.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Health.TransportFailureRateHealthPolicyOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Health.TransportFailureRateHealthPolicyOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Health.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Health.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.IProxyStateLookup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.IProxyStateLookup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.LoadBalancing.ILoadBalancingPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.LoadBalancing.ILoadBalancingPolicy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.LoadBalancing.LoadBalancingPolicies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.LoadBalancing.LoadBalancingPolicies.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.LoadBalancing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.LoadBalancing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Model.ClusterDestinationsState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Model.ClusterDestinationsState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Model.ClusterModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Model.ClusterModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Model.ClusterState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Model.ClusterState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Model.DestinationHealth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Model.DestinationHealth.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Model.DestinationHealthState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Model.DestinationHealthState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Model.DestinationModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Model.DestinationModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Model.DestinationState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Model.DestinationState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Model.IClusterChangeListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Model.IClusterChangeListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Model.IReverseProxyFeature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Model.IReverseProxyFeature.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Model.ReverseProxyApplicationBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Model.ReverseProxyApplicationBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Model.ReverseProxyFeature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Model.ReverseProxyFeature.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Model.RouteModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Model.RouteModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Model.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.ServiceDiscovery.DnsDestinationResolverOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.ServiceDiscovery.DnsDestinationResolverOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.ServiceDiscovery.IDestinationResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.ServiceDiscovery.IDestinationResolver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.ServiceDiscovery.ResolvedDestinationCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.ServiceDiscovery.ResolvedDestinationCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.ServiceDiscovery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.ServiceDiscovery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.SessionAffinity.AffinityResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.SessionAffinity.AffinityResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.SessionAffinity.AffinityStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.SessionAffinity.AffinityStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.SessionAffinity.IAffinityFailurePolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.SessionAffinity.IAffinityFailurePolicy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.SessionAffinity.ISessionAffinityPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.SessionAffinity.ISessionAffinityPolicy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.SessionAffinity.SessionAffinityConstants.FailurePolicies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.SessionAffinity.SessionAffinityConstants.FailurePolicies.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.SessionAffinity.SessionAffinityConstants.Policies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.SessionAffinity.SessionAffinityConstants.Policies.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.SessionAffinity.SessionAffinityConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.SessionAffinity.SessionAffinityConstants.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.SessionAffinity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.SessionAffinity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.Builder.ITransformBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.Builder.ITransformBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.Builder.ITransformFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.Builder.ITransformFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.Builder.ITransformProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.Builder.ITransformProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.Builder.TransformBuilderContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.Builder.TransformBuilderContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.Builder.TransformClusterValidationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.Builder.TransformClusterValidationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.Builder.TransformHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.Builder.TransformHelpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.Builder.TransformRouteValidationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.Builder.TransformRouteValidationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.Builder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.Builder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.ForwardedTransformActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.ForwardedTransformActions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.ForwardedTransformExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.ForwardedTransformExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.HttpMethodChangeTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.HttpMethodChangeTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.HttpMethodTransformExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.HttpMethodTransformExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.NodeFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.NodeFormat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.PathRouteValuesTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.PathRouteValuesTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.PathStringTransform.PathTransformMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.PathStringTransform.PathTransformMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.PathStringTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.PathStringTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.PathTransformExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.PathTransformExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.QueryParameterFromStaticTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.QueryParameterFromStaticTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.QueryParameterRemoveTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.QueryParameterRemoveTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.QueryParameterRouteTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.QueryParameterRouteTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.QueryParameterTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.QueryParameterTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.QueryStringTransformMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.QueryStringTransformMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.QueryTransformContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.QueryTransformContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.QueryTransformExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.QueryTransformExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestFuncTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestFuncTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeaderClientCertTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeaderClientCertTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeaderForwardedTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeaderForwardedTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeaderOriginalHostTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeaderOriginalHostTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeaderRemoveTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeaderRemoveTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeaderRouteValueTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeaderRouteValueTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeaderTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeaderTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeaderValueTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeaderValueTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeaderXForwardedForTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeaderXForwardedForTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeaderXForwardedHostTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeaderXForwardedHostTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeaderXForwardedPrefixTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeaderXForwardedPrefixTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeaderXForwardedProtoTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeaderXForwardedProtoTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeadersAllowedTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeadersAllowedTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeadersTransformExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestHeadersTransformExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestTransformContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.RequestTransformContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseCondition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseFuncTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseFuncTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseHeaderRemoveTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseHeaderRemoveTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseHeaderValueTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseHeaderValueTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseHeadersAllowedTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseHeadersAllowedTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseTrailerRemoveTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseTrailerRemoveTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseTrailerValueTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseTrailerValueTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseTrailersAllowedTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseTrailersAllowedTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseTrailersFuncTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseTrailersFuncTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseTrailersTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseTrailersTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseTrailersTransformContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseTrailersTransformContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseTransformContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseTransformContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseTransformExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.ResponseTransformExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.RouteConfigTransformExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.RouteConfigTransformExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.TransformBuilderContextFuncExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.TransformBuilderContextFuncExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Transforms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Transforms.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Utilities.IClock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Utilities.IClock.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Utilities.IRandomFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Utilities.IRandomFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Utilities.Tls.ExtensionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Utilities.Tls.ExtensionType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Utilities.Tls.TlsAlertDescription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Utilities.Tls.TlsAlertDescription.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Utilities.Tls.TlsAlertLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Utilities.Tls.TlsAlertLevel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Utilities.Tls.TlsContentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Utilities.Tls.TlsContentType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Utilities.Tls.TlsFrameHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Utilities.Tls.TlsFrameHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Utilities.Tls.TlsFrameHelper.ApplicationProtocolInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Utilities.Tls.TlsFrameHelper.ApplicationProtocolInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Utilities.Tls.TlsFrameHelper.HelloExtensionCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Utilities.Tls.TlsFrameHelper.HelloExtensionCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Utilities.Tls.TlsFrameHelper.ProcessingOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Utilities.Tls.TlsFrameHelper.ProcessingOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Utilities.Tls.TlsFrameHelper.TlsFrameInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Utilities.Tls.TlsFrameHelper.TlsFrameInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Utilities.Tls.TlsFrameHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Utilities.Tls.TlsFrameHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Utilities.Tls.TlsHandshakeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Utilities.Tls.TlsHandshakeType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Utilities.Tls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Utilities.Tls.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.Utilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "pdk/Yarp.ReverseProxy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/Yarp.ReverseProxy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pdk/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pdk/toc.html"
+        },
+        ".json": {
+          "relative_path": "pdk/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

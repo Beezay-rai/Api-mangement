@@ -1,0 +1,906 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class RouteConfig | One point </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class RouteConfig | One point ">
+      
+      
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo-2.svg" alt=" ">
+             
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Yarp.ReverseProxy.Configuration.RouteConfig">
+
+
+
+  <h1 id="Yarp_ReverseProxy_Configuration_RouteConfig" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig" class="text-break">
+Class RouteConfig  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Yarp.html">Yarp</a>.<a class="xref" href="Yarp.ReverseProxy.html">ReverseProxy</a>.<a class="xref" href="Yarp.ReverseProxy.Configuration.html">Configuration</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Yarp.ReverseProxy.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed record RouteConfig : IEquatable&lt;RouteConfig&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">RouteConfig</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Yarp.ReverseProxy.Configuration.RouteConfig.html">RouteConfig</a>&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.ForwardedTransformExtensions.html#Yarp_ReverseProxy_Transforms_ForwardedTransformExtensions_WithTransformClientCertHeader_Yarp_ReverseProxy_Configuration_RouteConfig_System_String_">ForwardedTransformExtensions.WithTransformClientCertHeader(RouteConfig, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.ForwardedTransformExtensions.html#Yarp_ReverseProxy_Transforms_ForwardedTransformExtensions_WithTransformForwarded_Yarp_ReverseProxy_Configuration_RouteConfig_System_Boolean_System_Boolean_Yarp_ReverseProxy_Transforms_NodeFormat_Yarp_ReverseProxy_Transforms_NodeFormat_Yarp_ReverseProxy_Transforms_ForwardedTransformActions_">ForwardedTransformExtensions.WithTransformForwarded(RouteConfig, bool, bool, NodeFormat, NodeFormat, ForwardedTransformActions)</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.ForwardedTransformExtensions.html#Yarp_ReverseProxy_Transforms_ForwardedTransformExtensions_WithTransformXForwarded_Yarp_ReverseProxy_Configuration_RouteConfig_System_String_Yarp_ReverseProxy_Transforms_ForwardedTransformActions_System_Nullable_Yarp_ReverseProxy_Transforms_ForwardedTransformActions__System_Nullable_Yarp_ReverseProxy_Transforms_ForwardedTransformActions__System_Nullable_Yarp_ReverseProxy_Transforms_ForwardedTransformActions__System_Nullable_Yarp_ReverseProxy_Transforms_ForwardedTransformActions__">ForwardedTransformExtensions.WithTransformXForwarded(RouteConfig, string, ForwardedTransformActions, ForwardedTransformActions?, ForwardedTransformActions?, ForwardedTransformActions?, ForwardedTransformActions?)</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.HttpMethodTransformExtensions.html#Yarp_ReverseProxy_Transforms_HttpMethodTransformExtensions_WithTransformHttpMethodChange_Yarp_ReverseProxy_Configuration_RouteConfig_System_String_System_String_">HttpMethodTransformExtensions.WithTransformHttpMethodChange(RouteConfig, string, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.PathTransformExtensions.html#Yarp_ReverseProxy_Transforms_PathTransformExtensions_WithTransformPathPrefix_Yarp_ReverseProxy_Configuration_RouteConfig_Microsoft_AspNetCore_Http_PathString_">PathTransformExtensions.WithTransformPathPrefix(RouteConfig, PathString)</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.PathTransformExtensions.html#Yarp_ReverseProxy_Transforms_PathTransformExtensions_WithTransformPathRemovePrefix_Yarp_ReverseProxy_Configuration_RouteConfig_Microsoft_AspNetCore_Http_PathString_">PathTransformExtensions.WithTransformPathRemovePrefix(RouteConfig, PathString)</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.PathTransformExtensions.html#Yarp_ReverseProxy_Transforms_PathTransformExtensions_WithTransformPathRouteValues_Yarp_ReverseProxy_Configuration_RouteConfig_Microsoft_AspNetCore_Http_PathString_">PathTransformExtensions.WithTransformPathRouteValues(RouteConfig, PathString)</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.PathTransformExtensions.html#Yarp_ReverseProxy_Transforms_PathTransformExtensions_WithTransformPathSet_Yarp_ReverseProxy_Configuration_RouteConfig_Microsoft_AspNetCore_Http_PathString_">PathTransformExtensions.WithTransformPathSet(RouteConfig, PathString)</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.QueryTransformExtensions.html#Yarp_ReverseProxy_Transforms_QueryTransformExtensions_WithTransformQueryRemoveKey_Yarp_ReverseProxy_Configuration_RouteConfig_System_String_">QueryTransformExtensions.WithTransformQueryRemoveKey(RouteConfig, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.QueryTransformExtensions.html#Yarp_ReverseProxy_Transforms_QueryTransformExtensions_WithTransformQueryRouteValue_Yarp_ReverseProxy_Configuration_RouteConfig_System_String_System_String_System_Boolean_">QueryTransformExtensions.WithTransformQueryRouteValue(RouteConfig, string, string, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.QueryTransformExtensions.html#Yarp_ReverseProxy_Transforms_QueryTransformExtensions_WithTransformQueryValue_Yarp_ReverseProxy_Configuration_RouteConfig_System_String_System_String_System_Boolean_">QueryTransformExtensions.WithTransformQueryValue(RouteConfig, string, string, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.RequestHeadersTransformExtensions.html#Yarp_ReverseProxy_Transforms_RequestHeadersTransformExtensions_WithTransformCopyRequestHeaders_Yarp_ReverseProxy_Configuration_RouteConfig_System_Boolean_">RequestHeadersTransformExtensions.WithTransformCopyRequestHeaders(RouteConfig, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.RequestHeadersTransformExtensions.html#Yarp_ReverseProxy_Transforms_RequestHeadersTransformExtensions_WithTransformRequestHeader_Yarp_ReverseProxy_Configuration_RouteConfig_System_String_System_String_System_Boolean_">RequestHeadersTransformExtensions.WithTransformRequestHeader(RouteConfig, string, string, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.RequestHeadersTransformExtensions.html#Yarp_ReverseProxy_Transforms_RequestHeadersTransformExtensions_WithTransformRequestHeaderRemove_Yarp_ReverseProxy_Configuration_RouteConfig_System_String_">RequestHeadersTransformExtensions.WithTransformRequestHeaderRemove(RouteConfig, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.RequestHeadersTransformExtensions.html#Yarp_ReverseProxy_Transforms_RequestHeadersTransformExtensions_WithTransformRequestHeaderRouteValue_Yarp_ReverseProxy_Configuration_RouteConfig_System_String_System_String_System_Boolean_">RequestHeadersTransformExtensions.WithTransformRequestHeaderRouteValue(RouteConfig, string, string, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.RequestHeadersTransformExtensions.html#Yarp_ReverseProxy_Transforms_RequestHeadersTransformExtensions_WithTransformRequestHeadersAllowed_Yarp_ReverseProxy_Configuration_RouteConfig_System_String___">RequestHeadersTransformExtensions.WithTransformRequestHeadersAllowed(RouteConfig, params string[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.RequestHeadersTransformExtensions.html#Yarp_ReverseProxy_Transforms_RequestHeadersTransformExtensions_WithTransformUseOriginalHostHeader_Yarp_ReverseProxy_Configuration_RouteConfig_System_Boolean_">RequestHeadersTransformExtensions.WithTransformUseOriginalHostHeader(RouteConfig, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.ResponseTransformExtensions.html#Yarp_ReverseProxy_Transforms_ResponseTransformExtensions_WithTransformCopyResponseHeaders_Yarp_ReverseProxy_Configuration_RouteConfig_System_Boolean_">ResponseTransformExtensions.WithTransformCopyResponseHeaders(RouteConfig, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.ResponseTransformExtensions.html#Yarp_ReverseProxy_Transforms_ResponseTransformExtensions_WithTransformCopyResponseTrailers_Yarp_ReverseProxy_Configuration_RouteConfig_System_Boolean_">ResponseTransformExtensions.WithTransformCopyResponseTrailers(RouteConfig, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.ResponseTransformExtensions.html#Yarp_ReverseProxy_Transforms_ResponseTransformExtensions_WithTransformResponseHeader_Yarp_ReverseProxy_Configuration_RouteConfig_System_String_System_String_System_Boolean_Yarp_ReverseProxy_Transforms_ResponseCondition_">ResponseTransformExtensions.WithTransformResponseHeader(RouteConfig, string, string, bool, ResponseCondition)</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.ResponseTransformExtensions.html#Yarp_ReverseProxy_Transforms_ResponseTransformExtensions_WithTransformResponseHeaderRemove_Yarp_ReverseProxy_Configuration_RouteConfig_System_String_Yarp_ReverseProxy_Transforms_ResponseCondition_">ResponseTransformExtensions.WithTransformResponseHeaderRemove(RouteConfig, string, ResponseCondition)</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.ResponseTransformExtensions.html#Yarp_ReverseProxy_Transforms_ResponseTransformExtensions_WithTransformResponseHeadersAllowed_Yarp_ReverseProxy_Configuration_RouteConfig_System_String___">ResponseTransformExtensions.WithTransformResponseHeadersAllowed(RouteConfig, params string[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.ResponseTransformExtensions.html#Yarp_ReverseProxy_Transforms_ResponseTransformExtensions_WithTransformResponseTrailer_Yarp_ReverseProxy_Configuration_RouteConfig_System_String_System_String_System_Boolean_Yarp_ReverseProxy_Transforms_ResponseCondition_">ResponseTransformExtensions.WithTransformResponseTrailer(RouteConfig, string, string, bool, ResponseCondition)</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.ResponseTransformExtensions.html#Yarp_ReverseProxy_Transforms_ResponseTransformExtensions_WithTransformResponseTrailerRemove_Yarp_ReverseProxy_Configuration_RouteConfig_System_String_Yarp_ReverseProxy_Transforms_ResponseCondition_">ResponseTransformExtensions.WithTransformResponseTrailerRemove(RouteConfig, string, ResponseCondition)</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.ResponseTransformExtensions.html#Yarp_ReverseProxy_Transforms_ResponseTransformExtensions_WithTransformResponseTrailersAllowed_Yarp_ReverseProxy_Configuration_RouteConfig_System_String___">ResponseTransformExtensions.WithTransformResponseTrailersAllowed(RouteConfig, params string[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarp.ReverseProxy.Transforms.RouteConfigTransformExtensions.html#Yarp_ReverseProxy_Transforms_RouteConfigTransformExtensions_WithTransform_Yarp_ReverseProxy_Configuration_RouteConfig_System_Action_System_Collections_Generic_IDictionary_System_String_System_String___">RouteConfigTransformExtensions.WithTransform(RouteConfig, Action&lt;IDictionary&lt;string, string&gt;&gt;)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Yarp_ReverseProxy_Configuration_RouteConfig__ctor_" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.#ctor*"></a>
+
+  <h3 id="Yarp_ReverseProxy_Configuration_RouteConfig__ctor" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.#ctor">
+  RouteConfig()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RouteConfig()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Yarp_ReverseProxy_Configuration_RouteConfig_AuthorizationPolicy_" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.AuthorizationPolicy*"></a>
+
+  <h3 id="Yarp_ReverseProxy_Configuration_RouteConfig_AuthorizationPolicy" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.AuthorizationPolicy">
+  AuthorizationPolicy
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? AuthorizationPolicy { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Yarp_ReverseProxy_Configuration_RouteConfig_ClusterId_" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.ClusterId*"></a>
+
+  <h3 id="Yarp_ReverseProxy_Configuration_RouteConfig_ClusterId" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.ClusterId">
+  ClusterId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? ClusterId { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Yarp_ReverseProxy_Configuration_RouteConfig_CorsPolicy_" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.CorsPolicy*"></a>
+
+  <h3 id="Yarp_ReverseProxy_Configuration_RouteConfig_CorsPolicy" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.CorsPolicy">
+  CorsPolicy
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? CorsPolicy { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Yarp_ReverseProxy_Configuration_RouteConfig_Match_" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.Match*"></a>
+
+  <h3 id="Yarp_ReverseProxy_Configuration_RouteConfig_Match" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.Match">
+  Match
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RouteMatch Match { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Yarp.ReverseProxy.Configuration.RouteMatch.html">RouteMatch</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Yarp_ReverseProxy_Configuration_RouteConfig_MaxRequestBodySize_" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.MaxRequestBodySize*"></a>
+
+  <h3 id="Yarp_ReverseProxy_Configuration_RouteConfig_MaxRequestBodySize" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.MaxRequestBodySize">
+  MaxRequestBodySize
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? MaxRequestBodySize { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Yarp_ReverseProxy_Configuration_RouteConfig_Metadata_" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.Metadata*"></a>
+
+  <h3 id="Yarp_ReverseProxy_Configuration_RouteConfig_Metadata" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.Metadata">
+  Metadata
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyDictionary&lt;string, string&gt;? Metadata { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2">IReadOnlyDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Yarp_ReverseProxy_Configuration_RouteConfig_Order_" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.Order*"></a>
+
+  <h3 id="Yarp_ReverseProxy_Configuration_RouteConfig_Order" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.Order">
+  Order
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? Order { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Yarp_ReverseProxy_Configuration_RouteConfig_RateLimiterPolicy_" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.RateLimiterPolicy*"></a>
+
+  <h3 id="Yarp_ReverseProxy_Configuration_RouteConfig_RateLimiterPolicy" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.RateLimiterPolicy">
+  RateLimiterPolicy
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? RateLimiterPolicy { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Yarp_ReverseProxy_Configuration_RouteConfig_RouteId_" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.RouteId*"></a>
+
+  <h3 id="Yarp_ReverseProxy_Configuration_RouteConfig_RouteId" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.RouteId">
+  RouteId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string RouteId { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Yarp_ReverseProxy_Configuration_RouteConfig_Timeout_" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.Timeout*"></a>
+
+  <h3 id="Yarp_ReverseProxy_Configuration_RouteConfig_Timeout" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.Timeout">
+  Timeout
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan? Timeout { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Yarp_ReverseProxy_Configuration_RouteConfig_TimeoutPolicy_" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.TimeoutPolicy*"></a>
+
+  <h3 id="Yarp_ReverseProxy_Configuration_RouteConfig_TimeoutPolicy" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.TimeoutPolicy">
+  TimeoutPolicy
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? TimeoutPolicy { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Yarp_ReverseProxy_Configuration_RouteConfig_Transforms_" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.Transforms*"></a>
+
+  <h3 id="Yarp_ReverseProxy_Configuration_RouteConfig_Transforms" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.Transforms">
+  Transforms
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;IReadOnlyDictionary&lt;string, string&gt;&gt;? Transforms { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2">IReadOnlyDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Yarp_ReverseProxy_Configuration_RouteConfig_Equals_" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.Equals*"></a>
+
+  <h3 id="Yarp_ReverseProxy_Configuration_RouteConfig_Equals_System_Object_" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.Equals(System.Object)">
+  Equals(object?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object? obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Yarp_ReverseProxy_Configuration_RouteConfig_Equals_" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.Equals*"></a>
+
+  <h3 id="Yarp_ReverseProxy_Configuration_RouteConfig_Equals_Yarp_ReverseProxy_Configuration_RouteConfig_" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.Equals(Yarp.ReverseProxy.Configuration.RouteConfig)">
+  Equals(RouteConfig?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(RouteConfig? other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Yarp.ReverseProxy.Configuration.RouteConfig.html">RouteConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Yarp_ReverseProxy_Configuration_RouteConfig_GetHashCode_" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.GetHashCode*"></a>
+
+  <h3 id="Yarp_ReverseProxy_Configuration_RouteConfig_GetHashCode" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Yarp_ReverseProxy_Configuration_RouteConfig_ToString_" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.ToString*"></a>
+
+  <h3 id="Yarp_ReverseProxy_Configuration_RouteConfig_ToString" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Yarp_ReverseProxy_Configuration_RouteConfig__Clone___" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.{Clone}$*"></a>
+
+  <h3 id="Yarp_ReverseProxy_Configuration_RouteConfig__Clone__" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.{Clone}$">
+  &lt;Clone&gt;$()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RouteConfig &lt;Clone&gt;$()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Yarp.ReverseProxy.Configuration.RouteConfig.html">RouteConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+
+  <a id="Yarp_ReverseProxy_Configuration_RouteConfig_op_Equality_" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.op_Equality*"></a>
+
+  <h3 id="Yarp_ReverseProxy_Configuration_RouteConfig_op_Equality_Yarp_ReverseProxy_Configuration_RouteConfig_Yarp_ReverseProxy_Configuration_RouteConfig_" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.op_Equality(Yarp.ReverseProxy.Configuration.RouteConfig,Yarp.ReverseProxy.Configuration.RouteConfig)">
+  operator ==(RouteConfig?, RouteConfig?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(RouteConfig? left, RouteConfig? right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Yarp.ReverseProxy.Configuration.RouteConfig.html">RouteConfig</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Yarp.ReverseProxy.Configuration.RouteConfig.html">RouteConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Yarp_ReverseProxy_Configuration_RouteConfig_op_Inequality_" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.op_Inequality*"></a>
+
+  <h3 id="Yarp_ReverseProxy_Configuration_RouteConfig_op_Inequality_Yarp_ReverseProxy_Configuration_RouteConfig_Yarp_ReverseProxy_Configuration_RouteConfig_" data-uid="Yarp.ReverseProxy.Configuration.RouteConfig.op_Inequality(Yarp.ReverseProxy.Configuration.RouteConfig,Yarp.ReverseProxy.Configuration.RouteConfig)">
+  operator !=(RouteConfig?, RouteConfig?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(RouteConfig? left, RouteConfig? right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Yarp.ReverseProxy.Configuration.RouteConfig.html">RouteConfig</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Yarp.ReverseProxy.Configuration.RouteConfig.html">RouteConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Copyright ©2024 OnePoint Financial Services Pvt Ltd.</span> 
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,402 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "One Point API Management",
+    "description": "Modernizing technology in a digital-first world is challenging for long-established financial institutions with legacy systems. These outdated systems contribute to technical debt and hinder innovation, making it crucial for an organisation to modernize to stay competitive Legacy systems are often siloed, limiting their integration with modern technologies and preventing seamless customer experiences. Modernization requires more than updating technology; it involves a strategic approach to unlock core systems, harness data, and automate processes for operational excellence, improved customer experiences, and new service launches.Despite the need for modernization, many organisations hesitate due to the critical role legacy systems play in daily operations. These systems house essential data and processes, making alterations risky. Traditional modernization approaches often fall short in addressing the need for scalable connectivity and secure data access. OnePoint's API-First strategy offers a robust alternative, providing a structured path to modernization that mitigates risk while unlocking the potential of legacy systems",
+    "termsOfService": "https://www.onepointfinserv.com/",
+    "contact": {
+      "name": "OnePoint Financial Services",
+      "url": "https://www.onepointfinserv.com/",
+      "email": "anuj@onepointfinserv.com"
+    },
+    "license": {
+      "name": "OnePoint",
+      "url": "https://www.onepointfinserv.com/"
+    },
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/connect/token": {
+      "post": {
+        "tags": [
+          "OAuth 2.0"
+        ],
+        "summary": "Get token from server",
+        "description": "Client Credentials Flow.",
+        "requestBody": {
+          "content": {
+            "application/x-www-form-urlencoded": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "grant_type": {
+                    "type": "string"
+                  },
+                  "client_id": {
+                    "type": "string"
+                  },
+                  "client_secret": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "grant_type": {
+                  "style": "form"
+                },
+                "client_id": {
+                  "style": "form"
+                },
+                "client_secret": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/health": {
+      "get": {
+        "tags": [
+          "Health"
+        ],
+        "summary": "Health Check",
+        "description": "Returns the health status of the middleware service.",
+        "responses": {
+          "200": {
+            "description": "Service is healthy",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HealthCheckResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/subtract": {
+      "post": {
+        "tags": [
+          "Calculator"
+        ],
+        "summary": "Subtract",
+        "description": "This operation sends a SOAP request to subtract two integers.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "text/xml": {
+              "schema": {
+                "$ref": "#/components/schemas/SOAPRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful subtraction response",
+            "content": {
+              "text/xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/SOAPResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/balanceenquiry": {
+      "post": {
+        "summary": "Balance Enquiry",
+        "description": "BI from CBS",
+        "tags": [
+          "Balance Enquiry"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BalanceEnquiryModel"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/ledgeraccounts": {
+      "get": {
+        "summary": "Ledger account list",
+        "description": "fetch ledger accounts",
+        "operationId": "",
+        "tags": [
+          "Ledger Accounts"
+        ],
+        "parameters": [
+          {
+            "name": "ids",
+            "in": "query",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "format": "int32"
+              }
+            }
+          },
+          {
+            "name": "ledgerId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "currency",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "balancesEffectiveAtLowerBound",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "balancesEffectiveAtUpperBound",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "availableBalanceAmount",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "createdAt",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "ledgerAccountCategoryId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/LedgerAccount"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/LedgerAccount"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/LedgerAccount"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "BalanceEnquiryModel": {
+        "type": "object",
+        "properties": {
+          "TransactionId": {
+            "type": "string",
+            "nullable": false
+          },
+          "AccountNumber": {
+            "type": "string",
+            "nullable": false
+          }
+        }
+      },
+      "HealthCheckResponse": {
+        "type": "object",
+        "properties": {
+          "AppName": {
+            "type": "string",
+            "example": "1"
+          },
+          "Status": {
+            "type": "string",
+            "example": "Healthy"
+          },
+          "Checks": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HealthCheckComponent"
+            }
+          },
+          "Duration": {
+            "type": "string",
+            "example": "00:00:00.0093838"
+          }
+        },
+        "example": {
+          "AppName": "1",
+          "Status": "Healthy",
+          "Checks": [
+            {
+              "Status": "Healthy",
+              "Component": "MSSQL",
+              "Description": null
+            },
+            {
+              "Status": "Healthy",
+              "Component": "Redis",
+              "Description": null
+            }
+          ],
+          "Duration": "00:00:00.0093838"
+        }
+      },
+      "HealthCheckComponent": {
+        "type": "object",
+        "properties": {
+          "Status": {
+            "type": "string",
+            "example": "Healthy"
+          },
+          "Component": {
+            "type": "string",
+            "example": "MSSQL"
+          },
+          "Description": {
+            "type": "string",
+            "example": null
+          }
+        }
+      },
+      "LedgerAccount": {
+        "type": "object",
+        "properties": {
+          "ledgerAccountId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ledgerAccountName": {
+            "type": "string",
+            "nullable": true
+          },
+          "ledgerId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "normalBalance": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "version": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ledgerAccountCategoryId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pendingDebit": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pendingCredit": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "postedDebit": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "postedCredit": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "currency": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "currencyExponent": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SOAPRequest": {
+        "type": "string",
+        "description": "The XML SOAP request",
+        "example": "<soap:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns=\"http://tempuri.org/\">\n  <soap:Header/>\n  <soap:Body>\n    <Subtract>\n      <intA>3</intA>\n      <intB>1</intB>\n    </Subtract>\n  </soap:Body>\n</soap:Envelope>"
+      },
+      "SOAPResponse": {
+        "type": "string",
+        "description": "The XML SOAP response",
+        "example": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\n    <soap:Body>\n        <SubtractResponse xmlns=\"http://tempuri.org/\">\n            <SubtractResult>2</SubtractResult>\n        </SubtractResponse>\n    </soap:Body>\n</soap:Envelope>"
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "Key based authentication based on resource using various schemes.",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": []
+    }
+  ]
+}
